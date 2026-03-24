@@ -46,3 +46,41 @@ print(result)  # [2. 3. 4.]
 - 'valid' → no padding (smaller output)
 - 'same' → same size output
 - 'full' → includes padding (larger output)
+
+
+## 🔹 Handling NaN (np.isnan)
+
+**Key Point:**
+- `NaN != NaN` → normal comparison fails
+
+---
+
+## 🔹 Check NaN
+
+```python
+import numpy as np
+
+arr = np.array([1, 2, np.nan, 4])
+
+np.isnan(arr)
+# [False False  True False]
+````
+
+---
+
+## 🔹 Filter
+
+```python
+arr[np.isnan(arr)]      # get NaN
+arr[~np.isnan(arr)]     # remove NaN
+```
+
+---
+
+## 🔹 Replace NaN with mean
+
+```python
+arr[np.isnan(arr)] = np.mean(arr[~np.isnan(arr)])
+```
+
+
