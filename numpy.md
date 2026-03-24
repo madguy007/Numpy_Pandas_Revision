@@ -47,7 +47,8 @@ print(result)  # [2. 3. 4.]
 - 'same' → same size output
 - 'full' → includes padding (larger output)
 
-
+```
+```
 ## 🔹 Handling NaN (np.isnan)
 
 **Key Point:**
