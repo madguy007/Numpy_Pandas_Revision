@@ -25,6 +25,8 @@ Output:
 [4 5 6]
 [1 2 3]]
 
+```
+
 CONDITIONS / RULES
 Works only for 2D (or higher) arrays
 Uses advanced indexing
