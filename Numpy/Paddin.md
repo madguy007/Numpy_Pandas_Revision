@@ -20,9 +20,10 @@ print(result)
 Output:
 
 [0 0 1 2 3 0 0]
-CONDITIONS / RULES
-pad_width → number of values added on each side
-default mode = 'constant' (fills with 0)
-other modes: 'edge', 'reflect', 'wrap'
-works for 1D and multi-dimensional arrays
-padding depends on array dimensions
+```
+### CONDITIONS / RULES
+- pad_width → number of values added on each side
+- default mode = 'constant' (fills with 0)
+- other modes: 'edge', 'reflect', 'wrap'
+- works for 1D and multi-dimensional arrays
+- padding depends on array dimensions
