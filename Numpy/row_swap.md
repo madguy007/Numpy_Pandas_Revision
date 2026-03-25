@@ -27,9 +27,9 @@ Output:
 
 ```
 
-CONDITIONS / RULES
-Works only for 2D (or higher) arrays
-Uses advanced indexing
-Swaps rows in-place
-Indices must be valid
-Can swap multiple rows at once
+#CONDITIONS / RULES
+- Works only for 2D (or higher) arrays
+- Uses advanced indexing
+- Swaps rows in-place
+- Indices must be valid
+- Can swap multiple rows at once
