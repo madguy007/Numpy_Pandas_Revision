@@ -13,13 +13,13 @@ You can control how padding values are filled.
 import numpy as np
 
 arr = np.array([1, 2, 3])
-result = np.pad(arr, pad_width=2, mode='constant')
+result = np.pad(arr, pad_width=2, mode='constant',constant_values=9)
 
 print(result)
 
 Output:
 
-[0 0 1 2 3 0 0]
+[9 9 1 2 3 9 9]
 ```
 ### CONDITIONS / RULES
 - pad_width → number of values added on each side
