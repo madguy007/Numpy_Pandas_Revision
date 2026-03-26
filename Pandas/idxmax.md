@@ -9,7 +9,7 @@
 ## Key Idea
 
 * `max()` → gives the maximum value
-* `idxmax()` → gives **where (label) that value occurs**
+* `idxmax()` → gives **where (Index) that value occurs**
 
 ---
 
