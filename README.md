@@ -1,11 +1,11 @@
-# 📊 NumPy & Pandas Revision
+# 📊 NumPy & Pandas Concept Gaps
 
 Quick revision notes for **NumPy and Pandas**, focused on core concepts and interview preparation.
 
 ## 📂 Structure
 
-* `numpy.md` → NumPy key concepts
-* `pandas.md` → Pandas key concepts
+* `numpy` → NumPy key concepts
+* `pandas` → Pandas key concepts
 
 ## 🎯 Goal
 
