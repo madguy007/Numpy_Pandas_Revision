@@ -1,4 +1,4 @@
-````md
+
 # 🧠 NumPy Revision Sheet: `np.any()`, `np.all()`, `np.array_equal()`
 
 ---
