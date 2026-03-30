@@ -31,7 +31,7 @@ Explanation:
 ---
 
 ## Works on DataFrame
-
+```
 Example:
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(df.idxmax())
 Output:
 A    1
 B    2
-
+```
 Explanation:
 Column A → max at index 1
 Column B → max at index 2
@@ -59,7 +59,7 @@ df.idxmax(axis=0)
 
 df.idxmax(axis=1)
 → gives column name where max occurs in each row
-
+```
 Example:
 print(df.idxmax(axis=1))
 
@@ -67,7 +67,7 @@ Output:
 0    B
 1    A
 2    B
-
+```
 ---
 
 ## Important Notes
